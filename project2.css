@@ -1,0 +1,162 @@
+{color:#005cb2;
+font-family: monospace;
+align:center;
+top:0px;
+background-color: #b4004e;
+margin-left: auto;
+margin-right: auto;
+padding: 12px;
+text-align: center;
+}
+.sec1{width: 80%;
+margin-right: auto;
+margin-left: auto;
+position: relative;
+box-sizing: border-box;}
+
+.img1{
+  width:100%;
+  animation: slideimg1 6s;
+}
+
+@keyframes slideimg1 { 0%{filter:blur(8px);}
+100%{filter:blur(2px);
+}
+}
+
+.head1{
+  position:absolute;
+  top:30%;
+  bottom:30%;
+  left:10%;
+  right: 10%;
+  text-align: right;
+  animation: slidehead1 3s;
+font-size: 30px;
+
+
+}
+
+
+
+@keyframes slidehead1  {
+  0%{transform: scale(0)translate(0,0);color:blue;}
+100%{transform: scale(1)translate(0,0);color:blue; }
+
+}
+
+
+
+
+.head2{
+  position:absolute;
+  top:60%;
+  bottom:60%;
+  left:10%;
+  right: 10%;
+  text-align: right;
+  animation: slidehead2 3s;
+font-size: 30px;
+
+
+}
+
+
+
+@keyframes slidehead2  {
+  0%{transform: scale(0)translate(0,0);color:blue;}
+100%{transform: scale(1)translate(0,0);color:blue; }
+
+}
+
+
+.sec2{width: 100%;
+  position:relative;
+margin-left:auto;
+margin-right:auto;
+
+}
+.img2{filter:blur(3px);
+  width:80%;}
+.head3{
+  position:absolute;
+  background-color:rgba(0,0,0, 0.3);
+  color:pink;
+  top:40%;
+  left:15%;
+
+  font-size: 20px;
+  text-align: right;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+
+
+
+.sec3{width: 100%;
+  position:relative;
+margin-left:auto;
+margin-right:auto;
+  box-sizing: border-box;}
+
+
+.img3{
+  width:80%;}
+
+
+
+
+  .head4{
+    position:absolute;
+  background-color:rgba(0,0,0, 0.3);
+  color:yellow;
+  top:50%;
+  left:15%;
+  font-size: 12px;
+  text-align: left;
+  padding: 20px;
+  font-family: inherit;
+  box-sizing: border-box ;}
+
+
+
+
+.sec4{width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  box-sizing: border-box;
+
+}
+
+.img4{
+  width: 80%;
+
+}
+.head5{
+  position:absolute;
+  top:300%;
+  bottom:300%;
+  left:10%;
+  right: 10%;
+  text-align: center;
+
+font-size: 30px;
+animation: slides 3s;
+}
+@keyframes slides {
+  0%{transform: scale(0)translate(0,0);color:blue;}
+  100%{transform: scale(1)translate(0,0);color:blue; }
+}
+
+
+.footer{color:#005cb2;
+font-family: monospace;
+
+top:0px;
+background-color: #b4004e;
+margin-left: auto;
+margin-right: auto;
+padding: 12px;
+text-align: center;}
